@@ -1,0 +1,3 @@
+export const API_KEYS = {
+    ADD_APARTMENT_API : 'ADD_APARTMENT_API'
+}

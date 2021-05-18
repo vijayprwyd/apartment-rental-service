@@ -1,0 +1,54 @@
+.filterContainer{
+    list-style: none;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-x: hidden;
+    max-height: 600px;
+    position: relative;
+}
+
+@media(min-width: 1200px) {
+    .dmd{
+        display: none;
+    }
+} 
+
+.filterContainer li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 10px 0;
+}
+
+.filterSummary {
+    font-size: 18px;
+}
+
+.filterHeader {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #091E42;
+}
+
+@media(min-width: 1200px) {
+    .apSm {
+        display: none;
+    }
+}
+
+@media(max-width: 1199px) {
+    .sidebar {
+        display: none;
+    }
+    .apSm {
+        display: block;
+    }
+}
+.filterButton {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}

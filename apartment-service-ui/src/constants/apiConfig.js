@@ -1,0 +1,1 @@
+export const APARTMENT_FETCH_LIMIT = 5;

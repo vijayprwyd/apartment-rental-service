@@ -1,0 +1,29 @@
+.loginContainer {
+    border: 1px solid rgb(218, 220, 224);
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    margin: 5px;
+    padding: 60px 30px;
+    background-color: white;
+}
+
+.loginForm {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: block;
+}
+
+.signup {
+    width: 100%;
+}
+
+.entryContainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
